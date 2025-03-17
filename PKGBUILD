@@ -9,7 +9,9 @@ url="https://gitlab.inria.fr/why3/why3"
 licence=('GNU LGPL 2.1.')
 provides=('why3')
 depends=("ocaml""lablgtk3")
-optdepends=("coq : For use coq realizations")
+optdepends=(
+	'coq : For use coq realizations'
+	)
 makedepends=("git" "ocaml-compiler-libs")
 source=("git+https://gitlab.inria.fr/why3/why3")
 md5sums=('SKIP')
