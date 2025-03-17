@@ -8,7 +8,7 @@ arch=("x86_64")
 url="https://gitlab.inria.fr/why3/why3"
 licence=('GNU LGPL 2.1.')
 provides=('why3')
-depends=("ocaml""lablgtk3")
+depends=("ocaml" "lablgtk3")
 optdepends=(
 	'coq: For use coq realizations'
 	)
