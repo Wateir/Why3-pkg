@@ -1,7 +1,7 @@
 #Maintainerl: Marche Claude
 
 pkgname=why3-git
-pkgver=
+pkgver=1.8.0
 pkgrel=1
 pkgdesc="Platform for deductive program verification"
 arch=("x86_64")
