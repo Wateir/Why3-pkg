@@ -1,10 +1,10 @@
 #Maintainerl: Marche Claude
 
 pkgname=why3-git
-pkgver=9c6f54fb
+pkgver=
 pkgrel=1
 pkgdesc="Platform for deductive program verification"
-arch=("any")
+arch=("x86_64")
 url="https://gitlab.inria.fr/why3/why3"
 licence=('GNU LGPL 2.1.')
 provides=('why3')
