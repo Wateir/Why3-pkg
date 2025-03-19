@@ -8,11 +8,11 @@ arch=("x86_64")
 url="https://gitlab.inria.fr/why3/why3"
 licence=('GNU LGPL 2.1.')
 provides=('why3')
-depends=("ocaml" "lablgtk3")
+depends=("ocaml" "lablgtk3" "ocaml-menhir" "emacs" "ocaml-zarith")
 optdepends=(
 	'coq: For use coq realizations'
 	)
-makedepends=("git" "ocaml-compiler-libs")
+makedepends=("git" "ocaml-compiler-libs" "bash")
 source=("git+https://gitlab.inria.fr/why3/why3")
 md5sums=('SKIP')
 
@@ -22,11 +22,11 @@ pkgver() {
 }
 
 package() {
-  cd "$srcdir/why3"
 
+  cd "$srcdir/why3"	
   autoconf
 	
-  cd "$srcdir/why3/configure"
+  bash $srcdir/why3/configure
   make
-  make install
+  sudo make install
 }
