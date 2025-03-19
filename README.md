@@ -1,5 +1,5 @@
 # Why3-pkg
-Just a pkgbuild for why3 on arch
+Just a pkgbuild for why3 on Arch Linux
 
 ## Installation
 
