@@ -3,9 +3,11 @@ Just a pkgbuild for why3 on Arch Linux
 
 ## Installation
 
-```cd why3-pkg  
+```
+cd why3-pkg  
 [AURhelper] -S ocaml-menhir  
-makepkg-si```
+makepkg-si
+```
 
 ### Uninstall
 
