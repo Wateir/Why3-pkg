@@ -1,7 +1,7 @@
 #Maintainerl: Marche Claude
 
 pkgname=why3-git
-pkgver=r16733.9c6f54f
+pkgver=r16737.389fdf8
 pkgrel=1
 pkgdesc="Platform for deductive program verification"
 arch=("x86_64")
@@ -11,6 +11,8 @@ provides=('why3')
 depends=("ocaml" "lablgtk3" "ocaml-menhir" "emacs" "ocaml-zarith")
 optdepends=(
 	'coq: For use coq realizations'
+	'cvc4: prover'
+	'z3: prover'
 	)
 makedepends=("git" "ocaml-compiler-libs" "bash")
 source=("git+https://gitlab.inria.fr/why3/why3")
